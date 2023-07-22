@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+:root {
+    --cor1: #f3ffeb;
+    --cor2: #acc95f;
+    --cor3: #f1396d;
+    --cor4: #fd6081;
+    --cor5: #8f9924;
+    --fonte1: 'Abel', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--cor1);
+    font-family: var(--fonte1);
+    font-size: 1.3em;
+    line-height: 1.5em;
+    color: white;
+}
+
+.container {
+    max-width: 640px;
+    margin: 50px auto;
+    background-color: var(--cor2);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.tabela {
+    display: flex;
+    justify-content: space-between;
+}
+
+#tabela1 {
+    text-align: start;
+}
+
+#tabela2 {
+    text-align: end;
+}
+
+form input, form label, form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form input {
+    font-size: 24px;
+    height: 50px;
+    padding: 0 20px;
+}
+
+form input:focus {
+    outline: 1px solid var(--cor1);
+}
+
+form button {
+    border: none;
+    background-color: var(--cor1);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+form button:hover {
+    background-color: var(--cor3);
+}
+
+.paragrafoResultado {
+    background-color: var(--cor5);
+    padding: 10px 20px;
+}
+
+.bad {
+    padding: 10px 20px;
+    background-color: var(--cor3);
+}
+
+.relogio {
+    font-size: 3em;
+}
+
+.pausado {
+    color: var(--cor3);
+}
